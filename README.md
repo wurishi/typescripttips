@@ -1,1 +1,1 @@
-# typescripttips
+[link](./note.md)

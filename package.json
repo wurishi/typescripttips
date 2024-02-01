@@ -1,0 +1,28 @@
+{
+  "name": "typescripttips",
+  "private": true,
+  "version": "0.0.0",
+  "main": "dist/typescripttips.cjs.js",
+  "module": "dist/typescripttips.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "init": "preconstruct init",
+    "fix": "preconstruct fix",
+    "tbuild": "preconstruct build"
+  },
+  "devDependencies": {
+    "@babel/preset-env": "^7.22.5",
+    "@babel/preset-typescript": "^7.22.5",
+    "@preconstruct/cli": "^2.7.0",
+    "typescript": "^4.5.4",
+    "vite": "^2.9.9"
+  },
+  "dependencies": {
+    "ts-toolbelt": "^9.6.0"
+  }
+}
